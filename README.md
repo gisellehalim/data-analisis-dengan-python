@@ -18,5 +18,5 @@ pipenv shell
 
 ## Run steamlit app
 ```
-streamlit run dashboard.py
+streamlit run dashboard_ecommerce.py
 ```
