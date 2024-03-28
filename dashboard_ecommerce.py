@@ -81,10 +81,10 @@ min_date = all_df["order_approved_at"].min()
 max_date = all_df["order_approved_at"].max()
  
 with st.sidebar:
-    # Menambahkan logo perusahaan
+    # Add logo
     st.image("https://i.ibb.co/pnMXQC2/Blue-and-White-Circle-Retail-Logo.png")
     
-    # Mengambil start_date & end_date dari date_input
+    # Retrieve start_date & end_date from date_input
     start_date, end_date = st.date_input(
         label='Date',min_value=min_date,
         max_value=max_date,
