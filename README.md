@@ -9,9 +9,9 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
 ## Setup (Opsi 2 - Menggunakan Terminal/PowerShell Tanpa Conda)
 ```
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 mkdir main-ds
 cd main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 pipenv install
 pipenv shell
 ```
