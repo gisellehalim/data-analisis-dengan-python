@@ -168,7 +168,6 @@ ax.tick_params(axis='y', labelsize=15)
 ax.tick_params(axis='x', labelsize=9)
  
 st.pyplot(fig)
-st.markdown("<p style='color: white;'>Highest order in a month reached around 7000 orders, precisely in November 2017.</p>", unsafe_allow_html=True)
 
 st.subheader('Monthly Revenue')
 
@@ -185,7 +184,6 @@ ax.tick_params(axis='y', labelsize=15)
 ax.tick_params(axis='x', labelsize=8)
  
 st.pyplot(fig)
-st.markdown("<p style='color: white;'>Highest revenue in a month reached around US$1 million, precisely in May 2018.</p>", unsafe_allow_html=True)
 
 st.subheader("Customer Order per City")
  
@@ -265,7 +263,7 @@ ax[1].tick_params(axis='x', labelsize=30)
 
 st.pyplot(fig)
 
-st.subheader("Best & Worst Performing Product based on Revenue")
+st.subheader("Best & Worst Performing Product based on Revenue (USD)")
  
 fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(35, 15))
  
@@ -291,7 +289,7 @@ ax[1].tick_params(axis='x', labelsize=30)
 
 st.pyplot(fig)
 
-st.subheader("Best & Worst Performing Product Category")
+st.subheader("Best & Worst Performing Product Category (USD)")
  
 fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(35, 15))
  
@@ -301,7 +299,7 @@ colors2 = ["#5A0505", "#7B0F0F", "#953D3D", "#C15050", "#CB6969"]
 sns.barplot(x="price", y="product_category_name", data=product_cat_revenue.sort_values(by="price", ascending=False).head(5), palette=colors, ax=ax[0])
 ax[0].set_ylabel(None)
 ax[0].set_xlabel("Total Revenue", fontsize=30)
-ax[0].set_title("Best Performing Product Category (revenue in Million)", loc="center", fontsize=50)
+ax[0].set_title("Best Performing Product Category (in Million)", loc="center", fontsize=50)
 ax[0].tick_params(axis='y', labelsize=35)
 ax[0].tick_params(axis='x', labelsize=30)
  
