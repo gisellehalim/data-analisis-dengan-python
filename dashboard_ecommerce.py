@@ -134,7 +134,6 @@ ax.tick_params(axis='x', labelsize=15)
 ax.set_title("Daily Orders", loc="center", fontsize=20)
  
 st.pyplot(fig)
-st.markdown("<p style='color: white;'>Highest order in a day reached almost 800 orders.</p>", unsafe_allow_html=True)
 
 st.subheader('Daily Revenue')
 
@@ -151,7 +150,6 @@ ax.tick_params(axis='y', labelsize=20)
 ax.tick_params(axis='x', labelsize=15)
  
 st.pyplot(fig)
-st.markdown("<p style='color: white;'>Highest revenue in a day reached around US$100.000</p>", unsafe_allow_html=True)
 
 st.subheader('Monthly Orders')
 
