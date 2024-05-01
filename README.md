@@ -1,4 +1,4 @@
-# Data Analisis dengan Python (Data Analysis with Python)
+# Data Analysis with Python
 
 ## Setup  (Option 1)
 ```
