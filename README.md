@@ -1,13 +1,13 @@
-# Data Analisis dengan Python
+# Data Analisis dengan Python (Data Analysis with Python)
 
-## Setup  (Opsi 1)
+## Setup  (Option 1)
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 
-## Setup (Opsi 2 - Menggunakan Terminal/PowerShell Tanpa Conda)
+## Setup (Option 2 - Using Terminal/PowerShell without Conda)
 ```
 mkdir main-ds
 cd main-ds
